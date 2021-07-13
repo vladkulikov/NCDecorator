@@ -1,4 +1,4 @@
-package hw.decorator;
+package com.company;
 
 class MatrixImpl implements Matrix{
 

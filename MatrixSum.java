@@ -1,4 +1,4 @@
-package hw.decorator;
+package com.company;
 
 public class MatrixSum implements Matrix{
     private final Matrix matrix1;
@@ -16,3 +16,4 @@ public class MatrixSum implements Matrix{
         return matrix1.getElement(i, j) + matrix2.getElement(i, j);
     }
 }
+

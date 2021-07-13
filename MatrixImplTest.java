@@ -1,4 +1,4 @@
-package hw.decorator;
+package com.company;
 
 import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;

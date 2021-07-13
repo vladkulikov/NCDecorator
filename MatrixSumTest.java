@@ -1,4 +1,4 @@
-package hw.decorator;
+package com.company;
 
 import org.junit.jupiter.api.Test;
 
@@ -14,7 +14,7 @@ class MatrixSumTest {
         int[][] rezMas = {{2,6,10}, {6,10,14}, {10,14,18}};
 
         MatrixImpl matrixImpl = new MatrixImpl(masUsual);
-        MatrixTransposed matrixTransposed = new MatrixTransposed(masUsual);
+        MatrixTransposed matrixTransposed = new MatrixTransposed(matrixImpl);
         MatrixSum matrixSum = new MatrixSum(matrixImpl, matrixTransposed);
         boolean expected = true;
         for (int i = 0; i < rezMas.length; i++){
